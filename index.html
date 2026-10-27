@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style Echo — Demo Website Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Hind Siliguri",sans-serif;background:#12100E;color:#F2EDE4;min-height:100dvh;display:flex;flex-direction:column;align-items:center;padding:48px 20px}
+h1{font-size:clamp(1.8rem,5vw,2.6rem);font-weight:700;text-align:center}
+h1 span{color:#C9A227}
+p.sub{color:#B9B0A0;text-align:center;margin-top:10px;max-width:52ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;max-width:980px;width:100%;margin-top:38px}
+a.card{background:#1D1A16;border:1px solid #35302A;border-radius:16px;padding:24px;color:inherit;text-decoration:none;transition:transform .15s ease,border-color .15s ease}
+a.card:hover{transform:translateY(-4px);border-color:#C9A227}
+.card .v{font-size:.8rem;font-weight:700;letter-spacing:.18em;color:#C9A227;text-transform:uppercase}
+.card h2{font-size:1.25rem;margin-top:8px}
+.card p{color:#B9B0A0;font-size:.94rem;margin-top:6px;line-height:1.5}
+.card .go{margin-top:14px;font-weight:700;color:#fff}
+footer{margin-top:44px;color:#7A7264;font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<h1>Style Echo — <span>Demo Website Concepts</span></h1>
+<p class="sub">Ek-i brand, char-ti alada design concept. Protiti site-i sampurno kaj kore — cart, search ar cash-on-delivery checkout soho.</p>
+<div class="grid">
+  <a class="card" href="v2.html"><div class="v">Version 2</div><h2>Maroon Classic</h2><p>Brand-er asol maroon-gold porichoy, real logo ar ornate premium feel.</p><div class="go">Site dekhun →</div></a>
+  <a class="card" href="v3.html"><div class="v">Version 3</div><h2>Black &amp; Gold Editorial</h2><p>Stone-black ar gold, Cormorant typography, bold editorial layout.</p><div class="go">Site dekhun →</div></a>
+  <a class="card" href="v4.html"><div class="v">Version 4</div><h2>Typography — Echo</h2><p>Naam thekei design: bishal type-e "Echo" protidhonir moto hariye jay. Shanto gallery style.</p><div class="go">Site dekhun →</div></a>
+  <a class="card" href="v5.html"><div class="v">Version 5</div><h2>Pillow-Soft Violet</h2><p>Vashoman sada card, pill button, ek-matro accent beguni — Instagram Shopping style.</p><div class="go">Site dekhun →</div></a>
+</div>
+<footer>Demo concepts prepared for Style Echo · styleecho.net</footer>
+</body>
+</html>
